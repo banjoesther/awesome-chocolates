@@ -76,7 +76,7 @@ DROP TABLE IF EXISTS `products`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `products` (
-  `PID` varchar(6) NOT NULL,
+  `PID` varchar(6) NOT NULL AUTO_INCREMENT,
   `Product` text,
   `Category` text,
   `Size` text,
